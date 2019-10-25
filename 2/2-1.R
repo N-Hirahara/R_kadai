@@ -24,5 +24,5 @@ V(g)[which(degs==max(degs))]$color <- "red"
 g_tmp <- g
 V(g_tmp)$name = ""
 V(g_tmp)[which(degs==max(degs))]$name <- V(g)[which(degs==max(degs))]$name
-plot(g_tmp, vertex.size=degs*1.5, vertex.label.cex=1)
+plot(g_tmp, vertex.size=degs*1.5, vertex.label.cex=1, )
 dev.off()
